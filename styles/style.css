@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body {
+    font-size: 2em;
+    font-family: Lexand Deca, sans-serif;
+}
+
+h1 {
+    /* font-size: 3em; */
+    font-weight: 700;
+}
+
+h1,
+h2 {
+    font-family: Inter, sans-serif;
+}
+
+
+
+
+/* ELEMENTS ----- */
+
+
+
+.desktop-img {
+    display: none;
+}
