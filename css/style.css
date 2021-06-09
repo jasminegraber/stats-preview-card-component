@@ -3,11 +3,12 @@
 body {
     font-size: 2em;
     font-family: Lexand Deca, sans-serif;
-    /* max-width: 100%;
-    margin: auto; */
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
 }
-
-
 
 h1 {
     font-weight: 700;
@@ -18,14 +19,30 @@ h2 {
     font-family: Inter, sans-serif;
 }
 
+.header-highlight {
+    color: hsl(277, 64%, 61%);
+}
+
+.main-text {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* LAYOUT ----- */
+
 .container {
     display: flex;
     flex-direction: column-reverse;
+    background-color: hsl(244, 38%, 16%);
 }
 
 
 /* ELEMENTS ----- */
 
-img.desktop-img {
+.desktop-img {
     display: none;
+}
+
+.mobile-img {
+    width: 100%;
+    height: auto;
 }
