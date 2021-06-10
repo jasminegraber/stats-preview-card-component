@@ -27,12 +27,18 @@ h2 {
     color: hsla(0, 0%, 100%, 0.75);
 }
 
+
 /* LAYOUT ----- */
 
 .container {
     display: flex;
     flex-direction: column-reverse;
     background-color: hsl(244, 38%, 16%);
+    margin: 250px 50px 50px 50px;
+}
+
+.text-wrapper {
+    padding: 70px;
 }
 
 
