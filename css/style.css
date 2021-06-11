@@ -32,6 +32,11 @@ h2 {
     overflow: hidden;
 }
 
+h1,
+.main-text {
+    line-height: 60px;
+}
+
 
 /* LAYOUT ----- */
 
@@ -43,9 +48,12 @@ h2 {
 }
 
 .text-wrapper {
-    padding: 70px;
+    padding: 120px;
 }
 
+.main-text {
+    padding: 0;
+}
 
 /* ELEMENTS ----- */
 
