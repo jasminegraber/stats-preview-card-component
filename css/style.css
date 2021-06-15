@@ -60,17 +60,21 @@ h1 {
     display: flex;
     flex-direction: column-reverse;
     background-color: hsl(244, 38%, 16%);
-    /* margin: 250px 50px 50px 50px; */
+    margin: 180px 30px 100px 30px;
 }
 
 h1 {
-    padding: 0 120px;
+    margin-top: 80px;
+    padding: 0 100px;
+}
+
+h2 {
+    margin-bottom: 0;
 }
 
 
-
 .main-text {
-    padding: 0 142px;
+    padding: 0 120px;
     letter-spacing: 1.2px;
     line-height: 50px;
 }
@@ -85,6 +89,14 @@ h1 {
 
 .mobile-img-wrapper {
     border-radius: 20px 20px 0 0;
+}
+
+.bottom-stats {
+    margin: 85px 0;
+}
+
+footer {
+    margin-bottom: 100px;
 }
 
 
