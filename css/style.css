@@ -41,7 +41,7 @@ h1 {
 }
 
 .main-text {
-    line-height: 50px;
+    
 }
 
 .sub-text,
@@ -64,13 +64,19 @@ h1 {
 }
 
 h1 {
-    padding: 0 120px 0 120px;
+    padding: 0 120px;
 }
 
 
 
 .main-text {
-    padding: 0;
+    padding: 0 142px;
+    letter-spacing: 1.2px;
+    line-height: 50px;
+}
+
+.sub-text {
+    letter-spacing: 1.5px;
 }
 
 .container {
